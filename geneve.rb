@@ -9,6 +9,7 @@ class Geneve < Formula
   sha256 "f6469a854cd72c40ee1f07c65c2bca3d244e520b8d5fd802f336aec51828d211"
 
   depends_on "go"
+  depends_on "pkg-config"
   depends_on "python"
 
   resource "certifi" do
