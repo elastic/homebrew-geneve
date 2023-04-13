@@ -5,8 +5,8 @@ class Geneve < Formula
   homepage "https://github.com/elastic/geneve"
   license "Apache-2.0"
 
-  url "https://github.com/elastic/geneve/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "f6469a854cd72c40ee1f07c65c2bca3d244e520b8d5fd802f336aec51828d211"
+  url "https://github.com/elastic/geneve/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "023a134a4a9e0e3363a00630015d456019c295cfed5b48e3e9de81b870c9087f"
 
   depends_on "go"
   depends_on "pkg-config"
@@ -38,8 +38,8 @@ class Geneve < Formula
   end
 
   resource "geneve" do
-    url "https://files.pythonhosted.org/packages/bc/58/bf35f0976b5b3af98e87d50fd72ccca5fd2af2d9c437a7bae5d6bbe13c7c/geneve-0.1.1.tar.gz"
-    sha256 "0ae9777492204cacc24b38a23a164fceb89b7581d7640e9b5e1fbad4a147ea2e"
+    url "https://files.pythonhosted.org/packages/be/5e/b5f3c210258e9f9be6cb7e74a9f0df866e02221ff62a2ac7435ec383dd27/geneve-0.2.0.tar.gz"
+    sha256 "c12ca35c79aa1c481b5cf2a6460efd171933d741e94bec6de72be35c44b7b13f"
   end
 
   resource "idna" do
