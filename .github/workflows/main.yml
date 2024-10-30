@@ -15,9 +15,9 @@ jobs:
       fail-fast: false
       matrix:
         os:
+          - "macos-15"
           - "macos-14"
           - "macos-13"
-          - "macos-12"
 
     steps:
       - name: Checkout code
